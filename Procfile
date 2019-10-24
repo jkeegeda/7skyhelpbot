@@ -1,0 +1,1 @@
+worker: python sky7helper.py
