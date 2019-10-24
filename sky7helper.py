@@ -6,7 +6,7 @@ import random
 
 # token ='e705352989f955a76701d2b8ee4c1833ccdc48adf48f53d1b150bfe07812d0b9177e53da586e22bbff173'
 
-vk_session = vk_api.VkApi(token='e705352989f955a76701d2b8ee4c1833ccdc48adf48f53d1b150bfe07812d0b9177e53da586e22bbff173')
+vk_session = vk_api.VkApi(token='token7skyhelper')
 
 longpull = VkLongPoll(vk_session)
 
