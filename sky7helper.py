@@ -3,9 +3,10 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 import vk_api
 
 import random
+import os
 
-
-vk_session = vk_api.VkApi(token = token7skyhelper )
+mytokenskyhelper = os.environ.get('token7skyhelper')
+vk_session = vk_api.VkApi(token = mytokenskyhelper )
 
 longpull = VkLongPoll(vk_session)
 
